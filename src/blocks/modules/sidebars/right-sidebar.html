@@ -1,0 +1,95 @@
+<div class="col-4 col-xl-3 right-sidebar">
+	<div class="d-flex justify-content-end">
+		<button class="btn btn-bordered with-text">XML JSON Converter</button>
+		<button class="btn btn-bordered">
+			<svg>
+				<use xlink:href="#converter"></use>
+			</svg>
+		</button>
+	</div>
+	<div class="d-flex justify-content-between">
+		<button type="button" class="btn btn-danger with-badge">
+			<svg>
+				<use xlink:href="#info"></use>
+			</svg>
+			Warnings
+			<span class="badge">23</span>
+		</button>
+		<div class="dropdown">
+			<button
+				class="btn btn-secondary dropdown-toggle"
+				type="button"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+			>
+				<svg>
+					<use xlink:href="#save"></use>
+				</svg>
+				Save
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdown">
+				<li>
+					<a class="dropdown-item" href="#">
+						<svg>
+							<use xlink:href="#save2"></use>
+						</svg>
+						Save
+					</a>
+				</li>
+				<li>
+					<a class="dropdown-item" href="#">
+						<svg>
+							<use xlink:href="#save-as"></use>
+						</svg>
+						Save as...
+					</a>
+				</li>
+				<li>
+					<a class="dropdown-item" href="#">
+						<svg>
+							<use xlink:href="#save-exit"></use>
+						</svg>
+						Save and Exit
+					</a>
+				</li>
+			</ul>
+		</div>
+		<button class="btn btn-bordered with-text">
+			<svg class="icon">
+				<use xlink:href="#exit"></use>
+			</svg>
+			Exit
+		</button>
+	</div>
+	<div class="card">
+		<div class="card-header d-flex align-items-center">
+			<h2>API Control Panel</h2>
+		</div>
+		<div class="card-body">
+			<div class="form">
+				<fieldset>
+					<label class="label">API Title</label>
+					<input class="form-control" type="text" value="Evgeniy test" />
+				</fieldset>
+
+				<fieldset>
+					<label class="label">API Spec Version</label>
+					<input class="form-control" type="text" value="SADC_Handlers" />
+				</fieldset>
+
+				<fieldset>
+					<label class="label">API Description</label>
+					<div class="field-button">
+						<textarea class="custom-scroll">SADC_Handlers</textarea>
+						<button class="btn expand-btn">EXPAND</button>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label class="label">Support Email</label>
+					<input class="form-control" type="text" value="SADC_Handlers" />
+				</fieldset>
+			</div>
+		</div>
+	</div>
+</div>
